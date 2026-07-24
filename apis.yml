@@ -1,9 +1,32 @@
 aid: clarity-ai
 name: Clarity AI
-description: 'Clarity AI is a company surfaced as a portfolio company of softbank-vision-fund and added
-  to the API Evangelist network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Clarity AI is a sustainability technology and fintech company that provides
+  AI-powered extra-financial intelligence for financial decision-making. Its
+  platform delivers ESG risk ratings, climate and physical-risk analytics,
+  regulatory-compliance reporting (EU Taxonomy, SFDR, MiFID II, ESMA fund
+  naming, Pillar 3), impact and UN SDG alignment, and retail-banking climate
+  engagement tools. Clarity AI reports coverage of 300K+ listed and private
+  companies, 450K+ funds, and 400+ sovereigns, and serves asset managers,
+  asset owners, banks, wealth managers, and corporates. The company exposes its
+  data through a web application, data feeds, APIs, and emerging AI agent / MCP
+  integrations, though its developer surface is gated behind an enterprise
+  platform login rather than a public developer portal. Clarity AI is a
+  portfolio company of the SoftBank Vision Fund. This profile is maintained in
+  the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/clarity-ai/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://clarity.ai/wp-content/uploads/2025/03/clarity-logo.svg
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,13 +35,43 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Enterprise
+- Sustainability
+- ESG
+- Climate
+- Fintech
+- Regulatory Compliance
+- Data
 apis: []
+common:
+- type: DomainSecurity
+  url: security/clarity-ai-domain-security.yml
+- type: Website
+  url: https://clarity.ai/
+- type: TrustCenter
+  url: https://trust.clarity.ai/
+- type: Blog
+  url: https://clarity.ai/research-and-insights/
+- type: Support
+  url: https://clarity.ai/contact/
+- type: Login
+  url: https://go.clarity.ai/
+- type: PrivacyPolicy
+  url: https://clarity.ai/website-privacy-policy/
+- type: TermsOfService
+  url: https://clarity.ai/services-terms-and-conditions/
+- type: LLMsTxt
+  url: llms/clarity-ai-llms.txt
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
